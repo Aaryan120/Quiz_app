@@ -22,12 +22,12 @@ function App() {
     const fetchQuizData = async () =>{
       setLoading(true);
       try {
-        const response = await fetch('/api.jsonserve.com/Uw5CrX') //Your Api Here
-        if(!response.ok){
-          throw new Error()
-        }
+        // const response = await fetch('/api.jsonserve.com/Uw5CrX') //Your Api Here
+        // if(!response.ok){
+        //   throw new Error()
+        // }
         // console.log(response);
-        // const response = quizdata;
+        const response = quizdata;
         setQuizData(response);
         setDuration(response.duration);
         console.log(response);
