@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# Quiz Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Objective
+Develop a web-based quiz application that fetches quiz data from a provided API endpoint and presents it through an intuitive and engaging user interface.
 
-## Available Scripts
+## API Endpoint
+The quiz data will be fetched from the api entered:
 
-In the project directory, you can run:
 
-### `npm start`
+## Features
+- **Start Quiz**: Users can start the quiz.
+- **Multiple-Choice Questions**: Display questions with multiple answer options.
+- **Quiz Summary**: Show total points scored upon quiz completion.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technical Requirements
+- Use any JavaScript framework of your choice (React, Vue, etc.).
+- Ensure proper parsing and error handling for robust data integration.
+- Write clean, maintainable, and well-documented code.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation Instructions
+### Prerequisites
+Ensure you have the following installed:
+- [Node.js](https://nodejs.org/) (Latest LTS version recommended)
+- [Git](https://git-scm.com/)
 
-### `npm test`
+### Steps to Set Up the Project
+1. **Clone the Repository**
+   ```sh
+   git clone <repository-url>
+   cd quiz-app
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. **Install Dependencies**
+   ```sh
+   npm install   # For npm users
+   # OR
+   yarn install  # For yarn users
+   ```
 
-### `npm run build`
+3. **Run the Development Server**
+   ```sh
+   npm start   # For npm users
+   # OR
+   yarn start  # For yarn users
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. **Build the Project (Optional)**
+   ```sh
+   npm run build   # For npm users
+   # OR
+   yarn build  # For yarn users
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Usage
+- Open the browser and go to `http://localhost:3000` (or the specified port in your setup).
+- Start the quiz and answer the questions.
+- View the quiz summary after completion.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Notes
+- The gamification feature is **not** included as per the assignment requirements.
+- Ensure proper error handling while fetching quiz data from the API.
+  
+## Screenshots and Video
+Start Quiz Page
+![first](/images/start.png)
+Quiz Page
+![second](/images/quiz.png)
+Result Quiz Page
+![third](/images/marks.png)
+Video Link: [https://drive.google.com/file/d/1CiR79jeCPPZhoeNuBViZ68CTRjp8sOAN/view?usp=sharing](https://drive.google.com/file/d/1CiR79jeCPPZhoeNuBViZ68CTRjp8sOAN/view?usp=sharing)
+## License
+This project is for educational purposes and does not have a specific license.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contact
+For any issues or questions, feel free to reach out!
